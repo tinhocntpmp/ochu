@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Game Ô Chữ – Phiên bản chuyên đề</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+<button id="solveBtn">Giải ô chữ</button>
+<div id="musicBtn">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+    </svg>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="popup" id="popup">
+    <div class="popup-close" id="popupClose">✖</div>
+    <div id="popupContent"></div>
+    <div class="clock" id="clock"></div>
+    <button id="confirmBtn">Xác nhận đáp án</button>
+</div>
+
+<div id="congrats">🎉 CHÚC MỪNG! 🎉</div>
+<script src="./js/db-chuongtrinh.js"></script>
+<script src="./js/script.js"></script>
+<!-- <script type="module" src="./js/script.js"></script> -->
+</body>
+</html>
