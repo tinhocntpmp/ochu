@@ -46,3 +46,147 @@ const DataModule = (()=>{
     return {data, data2, hints};
 
 })();
+
+
+/* ================= CONTENT MODULE ================= */
+const ContentModule = (()=>{
+
+    const dataContent = {
+
+        "row-1": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 1</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 6 chữ cái.</strong> Em hãy điền vào chỗ . . . từ thích hợp với hình minh họa <br>để hoàn thành câu nói.</div>
+                    <div class="question-text__main">
+                        Cần nháy chuột vào nút lệnh _ _ &nbsp; _ _ _ _ để chạy chương trình.
+                        <br>
+                        <div class="text-center"><img src="./img/img01_co_xanh.png" style="max-width:100%;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+
+        "row-2": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 2</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong> Em hãy lựa chọn đáp án đúng nhất.</div>
+                    <div class="question-text__main">
+                        Khối lệnh dưới đây thuộc nhóm lệnh nào?<br>
+                        <img src="./img/img02_hien_thi.png" style="max-width:100%;"><br>
+                        A) <i>Chuyển động</i><br>
+                        B) <i>Hiển thị</i><br>
+                        C) <i>Âm thanh</i><br>
+                        D) <i>Cảm biến</i>
+                    </div>
+                </div>
+            </div>
+        `,
+
+        "row-3": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 3</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
+                    <div class="question-text__main">Khu vực bên phải phần mềm Scratch, nơi nhân vật hoạt động, gọi là khu vực gì?
+                        <div class="text-center"><img src="./img/img03_san_khau.png" style="max-width:100%; width: 660px;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-4": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 4</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 1 từ, gồm 3 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
+                    <div class="question-text__main">Nhân vật mặc định trong Scratch là con gì?
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-5": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 5</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 1 từ, gồm 3 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
+                    <div class="question-text__main">Khối lệnh <b>[Nói (Xin chào!) trong (2) giây]</b> là lệnh gì?
+                        <div class="text-center"><img src="./img/img02_hien_thi.png" style="max-width:100%;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-6": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 6</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 1 từ, gồm 4 chữ cái.</strong> Em hãy điền vào chỗ . . . từ thích hợp với hình minh họa <br>để hoàn thành câu nói.</div>
+                    <div class="question-text__main">Nút lệnh màu đỏ dùng để _ _ _ _ chương trình.
+                        <br><br>
+                        <div class="text-center"><img src="./img/img06_dung.png" style="max-width:100%;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-7": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 7</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 5 chữ cái.</strong> Em hãy điền vào chỗ  . . . từ thích hợp <br>để hoàn thành câu nói.</div>
+                    <div class="question-text__main">Các lệnh trong chương trình được thực hiện lần lượt <br>theo _ _ _ &nbsp; _ _ từ trên xuống.
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-8": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 8</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 1 từ, gồm 7 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
+                    <div class="question-text__main">Đây là biểu tượng của phần mềm nào?
+                        <br>
+                        <div class="text-center"><img src="./img/img08_scratch.png" style="max-width:100%; width: 80px;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-9": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 9</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong> Em hãy điền vào chỗ  . . . từ thích hợp <br>để hoàn thành câu nói.</div>
+                    <div class="question-text__main">Chủ đề F có tên là: <br>“Giải quyết vấn đề với sự trợ giúp của _ _ _ &nbsp; _ _ _ _”
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-10": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 10</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 8 chữ cái.</strong> Em hãy điền vào chỗ  . . .</div>
+                    <div class="question-text__main">Các hình <i>3a, 3b, 3c, 3d, 3e trong SGK trang 71</i> thể hiện chương trình Scratch dùng để _ _ &nbsp; _ _ _ _ _ _ “Mèo con không vâng lời”.
+                        <div class="text-center"><img src="./img/img10_ke_chuyen.png" style="max-width:100%; width: 660px;"></div>
+                    </div>
+                </div>
+            </div>
+        `,
+        "row-11": `
+            <div class="question">
+                <p class="question-title">CÂU HỎI SỐ 11</p>
+                <div class="question-text">
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 6 chữ cái.</strong> Em hãy điền vào chỗ  . . . từ thích hợp <br>để hoàn thành câu nói.</div>
+                    <div class="question-text__main">Lập trình trực quan trong Scratch bằng cách _ _ _ &nbsp; _ _ _, lắp ghép các lệnh.
+                    </div>
+                </div>
+            </div>
+        `
+    };
+
+    function getContent(rowId){
+        return dataContent[rowId] || `<div><p>Không có nội dung</p></div>`;
+    }
+
+    return { getContent };
+
+})();

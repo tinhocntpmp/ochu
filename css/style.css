@@ -410,6 +410,12 @@ body{
     letter-spacing: 5px;
 }
 
+.question-text__main strong {
+    font-size: 110%;
+    color: #bcff66;
+    text-shadow: 0 0 8px rgba(255, 209, 102, 0.5);
+}
+
 /* Hình minh họa */
 .question-text__main img{
     margin-top: 15px;
