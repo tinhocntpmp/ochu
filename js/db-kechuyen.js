@@ -49,90 +49,51 @@ const ContentModule = (()=>{
         "row-1": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 1</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 6 chữ cái.</strong> Em hãy điền vào chỗ  . . . từ thích hợp <br>để hoàn thành câu nói.</div>
-                    <div class="question-text__main">Scratch là phần mềm cho phép em _ _ _ &nbsp; _ _ _, lắp ghép các lệnh để tạo chương trình.
-                </div>
+                ${KEO_THA}
             </div>
         `,
 
         "row-2": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 2</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 1 từ, gồm 3 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
-                    <div class="question-text__main">Nhân vật mặc định trong Scratch là con gì?
-                    </div>
-                </div>
+                ${MEO}
             </div>
         `,
 
         "row-3": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 3</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 1 từ, gồm 7 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
-                    <div class="question-text__main">Đây là biểu tượng của phần mềm nào?
-                        <br>
-                        <div class="text-center"><img src="./img/img08_scratch.png" style="max-width:100%; width: 80px;"></div>
-                    </div>
-                </div>
+                ${SCRATCH}
             </div>
         `,
         "row-4": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 4</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 8 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
-                    <div class="question-text__main">Trong khối lệnh <strong>Nói <i>Xin chào!</i> trong … giây</strong> vị trí chứa dấu ... cho biết nội dung gì?<br>
-                      <img src="./img/img02_hien_thi2.png" style="max-width:100%;">
-                    </div>
-                </div>
+                ${THOI_GIAN}
             </div>
         `,
         "row-5": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 5</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 5 chữ cái.</strong> Em hãy điền vào chỗ  . . . từ thích hợp <br>để hoàn thành câu nói.</div>
-                    <div class="question-text__main">Các lệnh trong chương trình được thực hiện lần lượt <br>theo _ _ _ &nbsp; _ _ từ trên xuống.
-                    </div>
-                </div>
+                ${THU_TU}
             </div>
         `,
         "row-6": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 6</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong> Em hãy điền vào chỗ  . . . từ thích hợp <br>để hoàn thành câu nói.</div>
-                    <div class="question-text__main">Chủ đề F có tên là: <br>“Giải quyết vấn đề với sự trợ giúp của _ _ _ &nbsp; _ _ _ _”
-                    </div>
-                </div>
+                ${MAY_TINH}
             </div>
         `,
         "row-7": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 7</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong> Em hãy lựa chọn đáp án đúng nhất.</div>
-                    <div class="question-text__main">
-                        Khối lệnh dưới đây thuộc nhóm lệnh nào?<br>
-                        <img src="./img/img02_hien_thi.png" style="max-width:100%;"><br>
-                        A) <i>Chuyển động</i><br>
-                        B) <i>Hiển thị</i><br>
-                        C) <i>Âm thanh</i><br>
-                        D) <i>Cảm biến</i>
-                    </div>
-                </div>
+                ${HIEN_THI}
             </div>
         `,
         "row-8": `
             <div class="question">
                 <p class="question-title">CÂU HỎI SỐ 8</p>
-                <div class="question-text">
-                    <div class="question-text__guide"><strong>Có 1 từ, gồm 3 chữ cái.</strong> Em hãy trả lời câu hỏi sau:</div>
-                    <div class="question-text__main">Khối lệnh <img src="./img/img02_hien_thi.png" style="max-width:100%;"> là lệnh gì?</div>
-                </div>
+                ${NOI}
             </div>
         `
     };
