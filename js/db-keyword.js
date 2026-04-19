@@ -1,5 +1,5 @@
 const NOI_DUNG = `<div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong></div>
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.<br>Em hãy trả lời câu hỏi:</strong></div>
                     <div class="question-text__main">👉 Khối lệnh<br>
                       <strong>Nói “[ … ]” trong <i>2</i> giây</strong><br>
                       vị trí chứa dấu ... cho biết điều gì?<br>
@@ -7,7 +7,7 @@ const NOI_DUNG = `<div class="question-text">
                     </div>
                 </div>`;
 const THOI_GIAN = `<div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 8 chữ cái.</strong></div>
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 8 chữ cái.<br>Em hãy trả lời câu hỏi:</strong></div>
                     <div class="question-text__main">👉 khối lệnh<br>
                       <strong>Nói <i>Xin chào!</i> trong [ … ] giây</strong><br>
                       vị trí chứa dấu ... cho biết điều gì?<br>
@@ -15,13 +15,13 @@ const THOI_GIAN = `<div class="question-text">
                     </div>
                 </div>`;
 const KE_CHUYEN = `<div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 8 chữ cái.</strong></div>
-                    <div class="question-text__main">👉 Các hình <i>3a, 3b, 3c, 3d, 3e trong SGK trang 71</i> thể hiện chương trình Scratch dùng để _ _ &nbsp; _ _ _ _ _ _ “Mèo con không vâng lời”.
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 8 chữ cái.<br>Hoàn thành câu nói sau:</strong></div>
+                    <div class="question-text__main">👉 Các hình <i>3a–3e trong SGK trang 71</i> minh họa chương trình Scratch dùng để _ _ &nbsp; _ _ _ _ _ _ “Mèo con không vâng lời”.
                         <div class="text-center"><img src="./img/img10_ke_chuyen.png" style="max-width:100%; width: 660px;"></div>
                     </div>
                 </div>`;
 const SCRATCH = `<div class="question-text">
-                    <div class="question-text__guide"><strong>Có 1 từ, gồm 7 chữ cái.</strong></div>
+                    <div class="question-text__guide"><strong>Có 1 từ, gồm 7 chữ cái.<br>Em hãy trả lời câu hỏi:</strong></div>
                     <div class="question-text__main">👉 Đây là biểu tượng của phần mềm nào?
                         <br>
                         <div class="text-center"><img src="./img/img08_scratch.png" style="max-width:100%; width: 80px;"></div>
@@ -37,7 +37,7 @@ const NOI = `<div class="question-text">
                     <div class="question-text__main">👉 Khối lệnh <img src="./img/img02_hien_thi.png" style="max-width:100%;"> là lệnh gì?</div>
                 </div>`;
 const MAY_TINH = `<div class="question-text">
-                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.</strong></div>
+                    <div class="question-text__guide"><strong>Có 2 từ, gồm 7 chữ cái.<br>Hoàn thành câu nói sau:</strong></div>
                     <div class="question-text__main">👉 Chủ đề F có tên là: <br>“Giải quyết vấn đề với sự trợ giúp của _ _ _ &nbsp; _ _ _ _”
                     </div>
                 </div>`;
